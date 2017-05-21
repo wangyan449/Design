@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<father>
+     <son id="001">
+         <name>老大</name>
+         <age>27</age>
+     </son>
+     <son id="002">
+         <name>老二</name>
+         <age>13</age>
+     </son>
+     <son id="003">
+         <name>老三</name>
+         <age>13</age>
+     </son>
+</father>
