@@ -1,0 +1,34 @@
+<xsd£ºschema xmlns£ºxsd=¡°http£º£¯£¯www.w3£®org£¯2001£¯XMLSchema¡±> 
+<xsd£ºelement name=¡°computer¡±type 2¡°Equip- ment¡±£¯>
+<xsd£ºcomplexType½Ðne=¡°Equipment¡±> 
+<xsd£ºsequence> 
+<xsd£ºelement name=¡°component¡±type =¡°Component¡±max-Occurs=¡°unbounded¡±£¯> 
+<£¯xsd£ºsequence>
+<£¯xsd£®complexType> 
+<xsd£ºcomplexType name=¡°Component¡±abstract= ¡°trlle¡±> 
+<xsd£ºattribute name=¡°price¡±type=¡°xsd£ºnonNegativeInteger"£¯> 
+<£¯xsd£ºcomplexType> 
+<xsd£®complexType name="Processor"> 
+<xsd£ºcomplex-Content> 
+<xsd£ºextension base=¡°Component¡±> 
+<xsd£ºattribute name=¡°speed¡¯¡¯type Ò»¡°xsd£ºnonNegativeInteger¡±£¯> 
+<£¯xsd£ºextension> 
+<£¯xsd£ºcomplex'Content>
+<£¯xsd£ºcomplexType> 
+<xsd£ºcomplexType name=¡°RAM¡±> 
+<xsd£ºcomplexContent> 
+<xsd£ºextension base="Component"> 
+<xsd£®attribute name="capacity" type="xsd£ºnonNegativeInteger"£¯> 
+<£¯xsd£ºextension> <£¯xsd£ºcomplexContent> 
+<£¯xsd£ºcomplexType> 
+<xsd£ºcomplexType name=¡°graphic_card¡±> 
+<xsd£ºcomplex-Content> 
+<xsd£ºextension base="Component"> 
+<xsd£ºsequence> 
+<xsd£ºelement name="subCom¡ª ponent"type="Component"maxOccurs="unbounded"£¯> 
+<£¯xsd£ºsequence> 
+<xsd£ºattribute name="integrity"type =¡°xsd£ºnonNegativelnteger"£¯> 
+<£¯xsd£ºextension> 
+<£¯xsd£®complexContent> 
+<£¯xsd£ºcomplexType>
+<£¯xsd£ºschema>
